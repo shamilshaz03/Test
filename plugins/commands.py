@@ -37,7 +37,7 @@ async def start(client, message):
             InlineKeyboardButton('ʀᴇ sᴇᴛᴛɪɴɢs', callback_data='openSettings'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ],[
-            InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url='')
+            InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/movie_update_ott')
         ],[
             InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info")
             ]]
@@ -83,7 +83,7 @@ async def start(client, message):
             InlineKeyboardButton('ʀᴇ sᴇᴛᴛɪɴɢs', callback_data='openSettings'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ],[
-            InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url='')
+            InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/movie_update_ott')
         ],[
             InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info")
             ]
@@ -132,7 +132,7 @@ async def start(client, message):
             InlineKeyboardButton('ʀᴇ sᴇᴛᴛɪɴɢs', callback_data='openSettings'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ],[
-            InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url='')
+            InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/movie_update_ott')
         ],[
             InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info")
             ]
