@@ -854,8 +854,7 @@ async def plan(client, message):
 	
         InlineKeyboardButton("📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ", url=f"https://t.me/{ADMIN_USRNM}")],[InlineKeyboardButton("❌ ᴄʟᴏꜱᴇ ❌", callback_data="close_data")
     ]]
-    await message.reply_photo(photo="https://envs.sh/0f8.jpg
-", caption=script.PLANS_TXT.format(message.from_user.mention, UPI_ID, QR_CODE_IMG), reply_markup=InlineKeyboardMarkup(btn), parse_mode=enums.ParseMode.HTML)
+    await message.reply_photo(photo="https://envs.sh/0f8.jpg", caption=script.PLANS_TXT.format(message.from_user.mention, UPI_ID, QR_CODE_IMG), reply_markup=InlineKeyboardMarkup(btn), parse_mode=enums.ParseMode.HTML)
 
 @Client.on_message(filters.command("shortlink"))
 async def shortlink(bot, message):
